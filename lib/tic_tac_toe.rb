@@ -1,5 +1,5 @@
 class TicTacToe
   def inititialize
-    @board = new.array()
+    @board = [" ",]
   end
 end

@@ -60,7 +60,11 @@ class TicTacToe
     puts "Pick a spot from 1-9"
     input = gets
     index = input_to_index(input)
-    valid_move?(index)
-    
+    if valid_move?(index) == true
+      move(index, current_player)
+      display_board
+    else
+      puts "Pick another spot!"
+    end
   end
 end

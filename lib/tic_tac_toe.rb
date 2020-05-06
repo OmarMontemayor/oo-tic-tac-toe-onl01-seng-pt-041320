@@ -106,5 +106,7 @@ class TicTacToe
     until over? || won?
       turn
     end
+    if over? 
+      puts " Congratulations #{winner}!"
   end
 end

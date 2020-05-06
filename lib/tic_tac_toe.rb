@@ -57,6 +57,7 @@ class TicTacToe
   end
   
   def turn
-    
+    puts "Pick a spot from 1-9"
+    gets 
   end
 end

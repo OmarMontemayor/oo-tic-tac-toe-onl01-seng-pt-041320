@@ -98,8 +98,5 @@ class TicTacToe
   def winner
     x = won?.each{|position| @board[position] == "X"}
     o = won?.each{|position| @board[position] == "O"}
-    position_taken?(won?)
-      
-    end
   end
 end

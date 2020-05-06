@@ -39,6 +39,8 @@ class TicTacToe
   end
   
   def turn_count
-    @board.each {
+    @board.each do |index| 
+      if index != " "
+        
   end
 end

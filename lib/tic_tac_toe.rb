@@ -47,4 +47,8 @@ class TicTacToe
     end
     counter
   end
+  
+  def current_player
+    
+  end
 end

@@ -69,17 +69,17 @@ class TicTacToe
   end
   
   def won?
-    combo = 0
-    while combo < WIN_COMBINATIONS.length
-      new_combo = WIN_COMBINATIONS[combo]
-      x = new_combo.all?{|pos| @board[pos] == "X"}
-      o = new_combo.all?{|pos| @board[pos] == "O"}
+    counter = 0
+    while counter < WIN_COMBINATIONS.length
+      combo = WIN_COMBINATIONS[combo]
+      x = combo.all?{|pos| @board[pos] == "X"}
+      o = combo.all?{|pos| @board[pos] == "O"}
       if x == true || o == true
         new_combo
       else
         false
       end
-      combo += 1
+      counter += 1
     end
     new_combo.to_ary
   end

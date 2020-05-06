@@ -108,5 +108,6 @@ class TicTacToe
     end
     if over? 
       puts " Congratulations #{winner}!"
+    end
   end
 end

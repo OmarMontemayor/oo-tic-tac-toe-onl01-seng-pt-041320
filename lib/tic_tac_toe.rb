@@ -81,5 +81,6 @@ class TicTacToe
       end
       combo += 1
     end
+    combo.to_a
   end
 end

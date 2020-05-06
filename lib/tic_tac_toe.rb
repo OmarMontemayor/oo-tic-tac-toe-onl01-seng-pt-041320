@@ -84,6 +84,6 @@ class TicTacToe
   end
   
   def full?
-    position_taken? && !won?
+    position_taken?(index) && !won?
   end
 end

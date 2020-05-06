@@ -96,7 +96,8 @@ class TicTacToe
   end
   
   def winner
-    if won? == false
+    if won?
+      binding.protect_from
 
   end
   

@@ -82,4 +82,8 @@ class TicTacToe
       counter += 1
     end
   end
+  
+  def full?
+    position_taken? && !won?
+  end
 end

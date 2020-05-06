@@ -64,7 +64,7 @@ class TicTacToe
       move(index, current_player)
       display_board
     else
-      puts "Pick another spot!"
+      turn
     end
   end
 end

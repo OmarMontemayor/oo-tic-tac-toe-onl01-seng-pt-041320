@@ -96,13 +96,11 @@ class TicTacToe
   end
   
   def winner
-    if won?.each do |position| @board[position] == "X"
+    if won?.each { |position| @board[position] == "X"}
       "X"
-     end
     else 
-      if won?.each do |position| @board[position] == "O"
+      if won?.each { |position| @board[position] == "O"}
         "O"
-         end
       end
     end
   end

@@ -107,7 +107,7 @@ class TicTacToe
       turn
     end
     if over? 
-      puts " Congratulations #{winner}!"
+      puts "Congratulations #{winner}!"
     end
   end
 end

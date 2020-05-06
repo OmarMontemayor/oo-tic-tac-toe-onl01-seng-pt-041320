@@ -81,6 +81,6 @@ class TicTacToe
       end
       counter += 1
     end
-    new_combo.to_ary
+    combo.to_ary
   end
 end

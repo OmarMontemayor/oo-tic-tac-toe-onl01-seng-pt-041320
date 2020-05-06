@@ -97,14 +97,7 @@ class TicTacToe
   
   def winner
     if won? == false
-      NIL
-    elsif won?.each { |position| @board[position] == "X"}
-      "X"
-    else 
-      if won?.each { |position| @board[position] == "X"}
-        "X"
-      end
-    end
+
   end
   
   def play

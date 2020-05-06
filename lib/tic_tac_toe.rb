@@ -59,6 +59,6 @@ class TicTacToe
   def turn
     puts "Pick a spot from 1-9"
     input = gets
-    index = input.input_to_index()
+    index = input_to_index(input)
   end
 end

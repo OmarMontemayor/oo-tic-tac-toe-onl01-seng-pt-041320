@@ -75,7 +75,7 @@ class TicTacToe
       x = combo.all?{|pos| @board[pos] == "X"}
       o = combo.all?{|pos| @board[pos] == "O"}
       if x == true || o == true
-        combo
+        return combo
       else
         false
       end

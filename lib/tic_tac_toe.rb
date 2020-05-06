@@ -73,14 +73,13 @@ class TicTacToe
     while combo < WIN_COMBINATIONS.length
       new_combo = WIN_COMBINATIONS[combo]
       x = new_combo.all?{|pos| @board[pos] == "X"}
-            o = new_combo.all?{|pos| @board[pos] == "O"}
-            if x == true || o == true
-                return new_combo
-            else
-                false
-            end
-            combo += 1
-        end
+      o = new_combo.all?{|pos| @board[pos] == "O"}
+      if x == true || o == true
+        new_combo
+      else
+        false
+      end
+      combo += 1
     end
   end
 end

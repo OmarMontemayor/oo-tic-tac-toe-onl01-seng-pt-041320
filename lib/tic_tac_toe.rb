@@ -84,6 +84,6 @@ class TicTacToe
   end
   
   def full?
-    position_taken?(index) && !won?
+    if turn_count == 9 && !won?
   end
 end

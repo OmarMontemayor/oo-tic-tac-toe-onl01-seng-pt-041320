@@ -99,10 +99,10 @@ class TicTacToe
     if won? == false
       NIL
     elsif won?.each { |position| @board[position] == "X"}
-      "X"
+      "O"
     else 
       if won?.each { |position| @board[position] == "O"}
-        "O"
+        "X"
       end
     end
   end

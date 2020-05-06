@@ -96,6 +96,8 @@ class TicTacToe
   end
   
   def winner
-    won?
+    if won?
+      won?[0]
+    end
   end
 end
